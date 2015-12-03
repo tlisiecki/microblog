@@ -12,5 +12,6 @@ OPENID_PROVIDERS = [
     {'name': 'Flickr', 'url': 'http://www.flickr.com/<username>'},
     {'name': 'MyOpenID', 'url': 'https://www.myopenid.com'}]
 
-SQLALCHEMY_DATABASE_URI = 'oracle+cx_oracle://microblog:microblog@192.168.1.20:1521/XE'
+#SQLALCHEMY_DATABASE_URI = 'oracle+cx_oracle://microblog:microblog@192.168.1.20:1521/XE'
+SQLALCHEMY_DATABASE_URI = 'oracle+cx_oracle://microblog:microblog@104.197.42.120:1521/XE'
 SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
